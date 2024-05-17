@@ -50,17 +50,27 @@ label-studio-ml start my_ml_backend --port 9090
 配置label-studio-ml-backend服务的地址
 ![image](https://github.com/AppleMax1992/label-studio--/assets/77500295/22306138-8aef-4208-bec8-59c2c01b0708)
 保存之后可以看到服务已经成功链接
-![image](https://github.com/AppleMax1992/label-studio--/assets/77500295/e9cf673e-0b61-424f-b475-c0baa9c9207b)
+![image](https://github.com/AppleMax1992/label-studio--/assets/77500295/c2f683e5-7c02-4ff6-93b9-10d54f75598d)
+
 
 
 
 ## 在label-studio页面中上传图片
-![image](https://github.com/AppleMax1992/label-studio--/assets/77500295/7510ae40-834f-42da-89c6-dd9a1ecb43ad)
-可以看到prediction字段已经成功返回了内容
-
-后端服务也已经成功log出预测结果
+上传新图片
+![image](https://github.com/AppleMax1992/label-studio--/assets/77500295/a98d04b7-73b5-4c40-856b-e2e0152f700b)
+![image](https://github.com/AppleMax1992/label-studio--/assets/77500295/40599056-89fa-4c93-811e-14a051519112)
+从后端服务已经成功log出预测结果
 ![image](https://github.com/AppleMax1992/label-studio--/assets/77500295/a32dfeb0-bfbc-4833-8081-a8e4d71e66f7)
 
-# 4. TODO 在图片编辑页面展示预测出的标签和mask
+点击新增图片的show task socre
+![image](https://github.com/AppleMax1992/label-studio--/assets/77500295/8196ad63-bf91-4c4b-8d67-c2f6137bb2c3)
+
+
+可以看到prediction字段已经成功返回了内容
+![image](https://github.com/AppleMax1992/label-studio--/assets/77500295/bfe189ec-2f7a-4e49-9ede-11b16fcd5cb2)
+
+
+
+# 4. TODO 在图片编辑页面展示预测出的标签和mask，后续标注人员可以以审核的方式，对图片进行修改，无需全部点位手动标注，简化标注流程
 
 
